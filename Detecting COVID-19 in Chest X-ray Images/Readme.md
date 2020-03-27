@@ -1,6 +1,6 @@
 # Detecting COVID-19 in Chest X-ray Images
 <img src="misc/3D_medical_animation_coronavirus_structure.jpg" alt="Analysis of Corona Virus" style="width: 40%; height: 100%" align='left'/>
-
+<br>
 ### Why:
 COVID-19 has hit the world and researchers all over the world try to find ways to tackle the virus.<br>
 A common application today is the analysis of body X-ray images to help doctors detect diseases. The goal is not to do decisions solely based on these analysis but to provide an experienced doctor with suggestions what images might be of high interest.<br>
