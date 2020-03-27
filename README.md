@@ -5,7 +5,7 @@ Welcome to my personal GitHub repository!<br>
 
 I am Michael Gorkow, a German Data Scientist living in the beautiful city of Munich and working for SAS.<br>
 My general focus area is advanced analytics but my passion really lies in applying state-of-the-art deep learning on complex problems.<br>
-In the last couple of years I've been working a lot with deep dearning and from time to time I create some demomonstrations how complex problems can be tackled.<br>
+In the last couple of years I've been working a lot with deep dearning and from time to time I create demonstrations how complex problems with unstructured data can be tackled.<br>
 
 Even though I am working for SAS, I am more comfortable programming in Python. Fortunately this is possible by leveraging Open Source libraries provided by official SAS repositories.<br>
 
