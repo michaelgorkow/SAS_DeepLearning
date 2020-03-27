@@ -1,4 +1,6 @@
-# Author
+# Deep Learning with SAS (Unofficial Repository)
+
+### About the Author
 Welcome to my personal GitHub repository!<br>
 
 I am Michael Gorkow, a German Data Scientist living in the beautiful city of Munich and working for SAS.<br>
