@@ -16,5 +16,9 @@ This work is not meant to be part of a production system but should show how mod
 
 ### Data:
 The data was taken from two sources:
-1. [https://github.com/ieee8023/covid-chestxray-dataset](COVID-19 image data collection on GitHub) - contributions welcome!
+1. [https://github.com/ieee8023/covid-chestxray-dataset]("COVID-19 image data collection on GitHub") - contributions welcome!
 2. [https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia](Chest X-Ray Images (Pneumonia) on Kaggle)
+
+
+1. [COVID-19 image data collection on GitHub - contributions welcome!](https://github.com/ieee8023/covid-chestxray-dataset)
+2. [Chest X-Ray Images (Pneumonia) on Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
