@@ -34,3 +34,6 @@ Demo videos can be found here:
 * Social Distancing without 2D transformation
 
 [![Social Distancing with Computer Vision (no transformation)](https://img.youtube.com/vi/qfEcNDXj9rs/0.jpg)](https://www.youtube.com/watch?v=qfEcNDXj9rs)
+
+### Further Ressources
+[Medium.com Article](https://medium.com/@michaelgorkow/track-social-distancing-using-computer-vision-2032d35cbcb4)
