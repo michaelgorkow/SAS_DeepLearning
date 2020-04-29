@@ -27,4 +27,8 @@ Annotations were performed using [CVAT](https://github.com/opencv/cvat).
 2. [Annotations](https://github.com/Mentos05/SAS_DeepLearning/tree/master/Social%20Distancing%20Demo/training_images)
 
 ### Demo
+Demo videos can be found here:
+* Social Distancing with 2D transformation
 [![Social Distancing with Computer Vision](https://img.youtube.com/vi/HnE9gC_ui4E/0.jpg)](https://www.youtube.com/watch?v=HnE9gC_ui4E)
+* Social Distancing without 2D transformation
+[![Social Distancing with Computer Vision (no transformation)](https://img.youtube.com/vi/qfEcNDXj9rs/0.jpg)](https://www.youtube.com/watch?v=qfEcNDXj9rs)
