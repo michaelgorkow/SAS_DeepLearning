@@ -51,4 +51,4 @@ Demo videos can be found here:
 [![Aircraft Turnaround Management Demo](https://img.youtube.com/vi/pRPymV7BGgE/0.jpg)](https://youtu.be/pRPymV7BGgE)
 
 ### Further Ressources
-[Medium.com Article]()
+[Aircraft Turnaround Management | Medium.com Article](https://medium.com/@michaelgorkow/aircraft-turnaround-management-using-computer-vision)

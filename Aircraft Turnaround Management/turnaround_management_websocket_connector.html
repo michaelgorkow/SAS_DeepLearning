@@ -1,0 +1,53 @@
+<!--Simple HTML webpage including a JavaScript websocket connector to receive scored images from SAS ESP-->
+<html>
+   <head><title>Aircraft Turnaround Management Websocket Connector</title></head>
+   <body>
+  <script language="javascript" type="text/javascript">
+  var wsUri = "ws://localhost:9900/SASESP/subscribers/project_airport_turnaround_management/query_airport_turnaround_management/w_python/?format=json&mode=streaming&pagesize=1";
+  var output;
+
+   var image = new Image();
+
+  function init()
+  {
+    output = document.getElementById("output");
+    testWebSocket();
+  }
+
+  function testWebSocket()
+  {
+    websocket = new WebSocket(wsUri);
+    websocket.onopen = function(evt) { onOpen(evt) };
+    websocket.onclose = function(evt) { onClose(evt) };
+    websocket.onmessage = function(evt) { onMessage(evt) };
+    websocket.onerror = function(evt) { onError(evt) };
+  }
+function onOpen(evt)
+  {
+    console.log('Connected');
+  }
+
+  function onClose(evt)
+  {
+    console.log('Closed');
+  }
+
+  function onMessage(evt)
+  {
+        var obj = JSON.parse(evt.data);
+        var d = obj.events[0].event.scored_image.scored_image;
+        image.src = "data:image/jpg;base64,"+d;
+        image.style.width = "100%";
+        image.style.height = "auto";
+        document.body.appendChild(image);
+  }
+
+  function onError(evt)
+  {
+    console.log('Error');
+  }
+
+  window.addEventListener("load", init, false);
+  </script>
+     </body>
+</html>
