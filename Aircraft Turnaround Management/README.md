@@ -1,5 +1,5 @@
 # Aircraft Turnaround Management Demo
-<img src="misc/Airport Turnaround Management.png" alt="Aircraft Turnaround Management" align='left' style="width: 40%; height: 100%"/> <br clear='left'>
+<img src="misc/Aircraft Turnaround Management.png" alt="Aircraft Turnaround Management" align='left' style="width: 40%; height: 100%"/> <br clear='left'>
 
 ### Why:
 Airport Turnaround Management refers to the physical process of preparing an aircraft for its next flight.
@@ -17,12 +17,16 @@ Areas of interest are areas that are relevant for your process and where you wan
 These business rules define states of your business process. For example the existence of 3 or more people in the stairway area for at least 10 seconds defines the beginning of your boarding process.
 
 The demo currently covers the following processes:
+* Aircraft Stationary
 * Boarding
-* Fueling
 * Baggage Loading
+* Fueling
+* Ground Power connected
 
 The main goal is not the visualization of the process but to use the extracted information of the process for further analysis. 
 The ideas are endless, from simple filtering of turnarounds that exceed a threshold time to more advanced topics like building predictive models to predict delays.
+
+To give you an idea how to bring the data into an analytics platform, I've added a SAS Cloud Analytics Services adapter at the end to push the data into SAS Viya.
 
 ### Further ideas
 While this model and the defined business rules are currently specific for turnaround management it could be adapted for all kinds of usecases where you want to detect and count objects in areas of interest and apply predefined business rules.
@@ -34,14 +38,17 @@ Just some ideas:
 ### Data
 The original video was taken from Youtube and afterwards annotated by me for model training.<br>
 Annotations were performed using [CVAT](https://github.com/opencv/cvat).
-1. [Original Video]()
-2. [Annotations]()
+1. [Original Video](https://www.youtube.com/watch?v=FYhPLt0PihQ)
 
 ### Demo
 Demo videos can be found here:
-* Aircraft Turnaround Management Demo
+* Aircraft Turnaround Management Demo with Computer Vision
 
-[![Aircraft Turnaround Management Demo](https://img.youtube.com/vi/YOUTUBEID/0.jpg)]()
+[![Aircraft Turnaround Management Demo](https://img.youtube.com/vi/D74rkcbDV04/0.jpg)](https://youtu.be/D74rkcbDV04)
+
+* Aircraft Turnaround Management (Dashboarding in SAS Visual Analytics)
+
+[![Aircraft Turnaround Management Demo](https://img.youtube.com/vi/pRPymV7BGgE/0.jpg)](https://youtu.be/pRPymV7BGgE)
 
 ### Further Ressources
 [Medium.com Article]()

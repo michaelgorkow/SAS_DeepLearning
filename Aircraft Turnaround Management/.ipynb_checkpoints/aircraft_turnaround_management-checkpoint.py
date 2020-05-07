@@ -129,22 +129,6 @@ def dashboard(br_status, area_class_count, dashboard_width=600):
         cv2.putText(dashboard, 'Areas of Interest', (10,ypos), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255), 1, cv2.LINE_AA)
         cv2.putText(dashboard, 'OFF', (250,ypos), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255), 1, cv2.LINE_AA)
         ypos += 20
-#     cv2.putText(dashboard, 'FUEL START:   ' + str(time.strftime('%H:%M:%S', time.gmtime(fueling_start))), (10,ypos+50), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'FUEL END:   ' + str(time.strftime('%H:%M:%S', time.gmtime(fueling_end))), (10,ypos+70), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'BAG UNLOAD START:   ' + str(time.strftime('%H:%M:%S', time.gmtime(baggage_unloading_start))), (10,ypos+90), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'BAG UNLOAD END:   ' + str(time.strftime('%H:%M:%S', time.gmtime(baggage_unloading_end))), (10,ypos+110), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'BAG LOAD START:   ' + str(time.strftime('%H:%M:%S', time.gmtime(baggage_loading_start))), (10,ypos+130), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'BAG LOAD END:   ' + str(time.strftime('%H:%M:%S', time.gmtime(baggage_loading_end))), (10,ypos+150), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'AC STATIONARY START:   ' + str(time.strftime('%H:%M:%S', time.gmtime(aircraft_stationary_start))), (10,ypos+170), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'AC STATIONARY END:   ' + str(time.strftime('%H:%M:%S', time.gmtime(aircraft_stationary_end))), (10,ypos+190), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'UNBOARD START:   ' + str(time.strftime('%H:%M:%S', time.gmtime(unboarding_start))), (10,ypos+210), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'UNBOARD END:   ' + str(time.strftime('%H:%M:%S', time.gmtime(unboarding_end))), (10,ypos+230), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'BOARD START:   ' + str(time.strftime('%H:%M:%S', time.gmtime(boarding_start))), (10,ypos+250), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'BOARD END:   ' + str(time.strftime('%H:%M:%S', time.gmtime(boarding_end))), (10,ypos+270), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'GROUNDP START:   ' + str(time.strftime('%H:%M:%S', time.gmtime(ground_power_start))), (10,ypos+290), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'GROUNDP END:   ' + str(time.strftime('%H:%M:%S', time.gmtime(ground_power_end))), (10,ypos+310), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'BOARD_UNBOARD:   ' + board_unboard, (10,ypos+350), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
-#     cv2.putText(dashboard, 'LOAD_UNDLOAD:   ' + load_unload, (10,ypos+370), cv2.FONT_HERSHEY_SIMPLEX, 0.7, areas_of_interest[area][2], 1, cv2.LINE_AA)
     return dashboard
 
 # Function to create Visual Analytics Timestamp Variables - Timestamps are seconds since 1970 (UTC)
