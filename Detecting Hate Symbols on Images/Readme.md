@@ -1,4 +1,4 @@
-# Detecting Hate Symbols on Images
+# Detecting Hate Symbols on Images - Support Crime Investigations in Social Media
 <img src="misc/no_nazi.png" alt="Hate Symbols" align='left' style="width: 10%; height: 10%"/> <br clear='left'>
 ### Why:
 Social media such as Facebook, WhatsApp and WeChat are wonderful ways to communicate with people all over the world.
