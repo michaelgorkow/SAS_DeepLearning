@@ -15,7 +15,7 @@ This not only saves manual effort but also enables officials to better protect t
 In this demo I train a ResNet-50 image classifier to detect weapons and feed the image classification results into SAS Visual Analytics.
 
 ### Data
-The training images were taken from Kaggle:
+The training images were taken from Kaggle:<br>
 [Kaggle Weapons Dataset](https://www.kaggle.com/mohamedmaher1997/weapons)
 
 ### Demo
