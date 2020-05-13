@@ -25,4 +25,4 @@ Demo videos can be found here:
 [![Use Image Classification results in SAS Visual Analytics for efficient investigations](https://img.youtube.com/vi/vP5_XfN0CKo/0.jpg)](https://www.youtube.com/watch?v=vP5_XfN0CKo)
 
 ### Further Ressources
-[Medium.com Article](https://medium.com/@michaelgorkow/track-social-distancing-using-computer-vision-2032d35cbcb4)
+[Medium.com Article](https://medium.com/@michaelgorkow/crime-investigation-using-image-data-in-the-times-of-big-data-7ef0579ea846)
