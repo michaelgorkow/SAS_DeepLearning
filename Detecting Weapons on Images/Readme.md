@@ -1,4 +1,4 @@
-# Detecting Weapons on Images
+# Detecting Weapons on Images - Support Crime Investigations in Social Media
 <img src="misc/weapons3.jpg" alt="Hate Symbols" align='left' style="width: 100%; height: 100%"/> <br clear='left'>
 
 ### Why:
