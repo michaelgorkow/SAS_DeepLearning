@@ -8,21 +8,6 @@ from matplotlib.colors import Normalize
 from scipy.spatial import cKDTree
 import itertools
 
-# Homography
-# Calculate Transformation Matrix given 4 points in camera image and map image (F = final homography matrix)
-# Calculate max-x and max-y values of map image
-# pts_src = np.array([[297, 179], [41, 562], [1750, 530],[1517, 154]])
-# pts_dst = np.array([[0, 0], [0, 270], [480, 270],[480, 0]])
-# h, status = cv2.findHomography(pts_src, pts_dst)
-# P = np.array([[0,1920,1920,0],[0,0,1080,1080],[1,1,1,1]])
-# h_ = h.dot(P)
-# min_x, min_y = np.min(h_[0] / h_[2]), np.min(h_[1]/h_[2])
-# max_x, max_y = int(np.max(h_[0] / h_[2])), int(np.max(h_[1]/h_[2]))
-# trans_mat = np.array([[1,0,-min_x], [0,1,-min_y],[0,0,1]])
-# F = trans_mat.dot(h)
-# h__ = F.dot(P)
-# max_x, max_y = int(np.max(h__[0] / h__[2])), int(np.max(h__[1] / h__[2]))
-
 # Calculate maximum x and y values for transformed image, given a homography matrix and image_size
 if map_view == True:
     P = np.array([[0,image_shape[1],image_shape[1],0],[0,0,image_shape[0],image_shape[0]],[1,1,1,1]])
