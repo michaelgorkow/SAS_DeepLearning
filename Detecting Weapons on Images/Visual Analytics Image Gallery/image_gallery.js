@@ -22,12 +22,12 @@ function onMessage(event) {
        img.width = event.data.data[i][1];
        photo.appendChild(img);
        row.appendChild(photo);
-       console.log(i+1 % 3);
+       // console.log(i+1 % 3);
        if ((i+1) % 3 == 0 && i > 0) {
           table.appendChild(row);
           row = document.createElement("tr");
        }
-       console.log(i, event.data.availableRowCount);
+       // console.log(i, event.data.availableRowCount);
        if (i == event.data.availableRowCount-1) {
           console.log('end');
           table.appendChild(row);
