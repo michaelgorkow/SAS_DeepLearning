@@ -21,7 +21,7 @@ Additionally the data and labels were augmented with several transformations inc
 Demo videos can be found here:
 * Face Mask Detection
 
-[![Face Mask Detection with Computer Vision](https://img.youtube.com/vi/ID/0.jpg)](https://www.youtube.com/watch?v=ID)
+[![Face Mask Detection with Computer Vision](https://img.youtube.com/vi/ID/C8ROYvP-XYc.jpg)](https://www.youtube.com/watch?v=C8ROYvP-XYc)
 
 ### Further Ressources
 [Medium.com Article](https://medium.com/@michaelgorkow/track-social-distancing-using-computer-vision-2032d35cbcb4)
