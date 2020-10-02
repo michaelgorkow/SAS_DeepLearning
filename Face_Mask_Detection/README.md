@@ -1,5 +1,5 @@
 # Face Mask Detection
-<img src="misc/Face_Mask_Detection.png" alt="Face Mask Detection" align='left' style="width: 40%; height: 100%"/> <br clear='left'>
+<img src="misc/Face_Mask_Detection.jpg" alt="Face Mask Detection" align='left' style="width: 40%; height: 100%"/> <br clear='left'>
 
 ### Why:
 Due to the Corona crisis many governments decided that people should wear face masks when they're in public areas such as public transporation, supermarkets, etc.<br>
