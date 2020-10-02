@@ -8,17 +8,16 @@ Closely related to my other [example](https://github.com/Mentos05/SAS_DeepLearni
 In this example I train a Tiny YOLOv2 model to detect faces and covered faces on images. This model is then used in a SAS Event Stream Processing project to score frames from a video.<br>
 
 ### Further ideas
-The main idea came during the corona crisis but this could of course also be interesting for other usecases:
-* Identify pickpocketing
-* Observe demonstrations and quickly identify dangerous people
+* Generate warnings if people are not wearing masks
+* Restrict access if a person is not wearing a mask
 
 ### Data
-The data was collected and annotated manually via Google Image Search.
-Annotations were performed using [CVAT](https://github.com/opencv/cvat).
+The data was collected and annotated manually via Google Image Search.<br>
+Annotations were performed using [CVAT](https://github.com/opencv/cvat).<br>
 Additionally the data and labels were augmented with several transformations including, flipping, HSV transformations and mosaic stitching.
 
 ### Demo
-Demo videos can be found here:
+Demo video can be found here:
 * Face Mask Detection
 
 [![Face Mask Detection with Computer Vision](https://img.youtube.com/vi/C8ROYvP-XYc/0.jpg)](https://www.youtube.com/watch?v=C8ROYvP-XYc)
